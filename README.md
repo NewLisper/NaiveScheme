@@ -11,9 +11,12 @@
    
    垃圾回收参考了peter michaux的[博文][4]及[标记清除算法][5]。
    
+   宏展开系统参考了R.Kent Dybvig的[paper][6]，但未能实现完整的syntax-case系统，只实现了pattern match风格的不健康的宏展开系统。
+   
    
 [1]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
 [2]:http://flysnowxg.googlecode.com/svn/tinyscheme_note/
 [3]:http://www.cs.indiana.edu/~dyb/papers/3imp.pdf
 [4]:http://peter.michaux.ca/articles/scheme-from-scratch-bootstrap-v0_22-garbage-collection
 [5]:https://www.google.com.hk/webhp?hl=zh-CN#hl=zh-CN&newwindow=1&q=标记清除算法&safe=strict
+[6]:http://www.cs.indiana.edu/%7Edyb/pubs/bc-syntax-case.pdf
