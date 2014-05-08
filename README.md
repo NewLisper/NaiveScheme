@@ -22,15 +22,15 @@ continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以
 
 数据类型
 ----
-1. integer  
-2. float  
-3. bool  
-4. char  
-5. string  
-6. nil  
-7. proper list  
-8. improper list  
-9. symbol  
+ 1.integer  
+ 2.float  
+ 3.bool  
+ 4.char  
+ 5.string  
+ 6.nil  
+ 7.proper list  
+ 8.improper list  
+ 9.symbol  
 10.closure  
 11.continuation  
 12.macro  
