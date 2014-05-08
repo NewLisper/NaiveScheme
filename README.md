@@ -5,9 +5,10 @@
    用c实现的一个基本完整的scheme解释器。
 参考资料
 ----
-   read,write层以及基本的数据结构借鉴了petermichaux的[bootstrap-scheme][1]源码。
-   eval层借鉴了flysnowxg的[tinyscheme revised][2]版本源码。
+   read,write层以及基本的数据结构参考了petermichaux的[bootstrap-scheme][1]源码。
+   eval层参考了flysnowxg的[tinyscheme revised][2]版本源码以及R.Kent Dybvig的[paper][3]。
    
    
-[1]:http://flysnowxg.googlecode.com/svn/tinyscheme_note/
-[2]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
+[1]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
+[2]:http://flysnowxg.googlecode.com/svn/tinyscheme_note/
+[3]:http://www.cs.indiana.edu/~dyb/papers/3imp.pdf
