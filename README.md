@@ -11,7 +11,7 @@
    
    垃圾回收参考了peter michaux的[博文][4]及[标记清除算法][5]。
    
-   宏展开系统参考了R.Kent Dybvig的[paper][6]，但未能实现完整的syntax-case系统，只实现了pattern match风格的不健康的宏展开系统。
+   宏展开系统参考了R.Kent Dybvig的[paper][6]，但未能实现完整的syntax-case系统，只实现了pattern match风格的不健康宏展开系统。
    
    
 [1]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
