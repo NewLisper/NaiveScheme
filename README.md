@@ -41,6 +41,12 @@ continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以
 ----
 见include文件夹下的primitive.h文件
 
+扩展
+----
+库函数在lib.ss文件中定义。
+
+宏在syntax.ss文件中定义。
+
 作者
 ----
 NewLisper(leeliu.the.ultimate@gmail.com)
