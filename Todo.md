@@ -7,6 +7,7 @@ vector
 foldl  
 foldr  
 reverse  
+...  
 
 原语
 ----
