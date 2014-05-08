@@ -4,9 +4,9 @@ vector
 
 库函数
 ----
-foldl
-foldr
-reverse
+foldl  
+foldr  
+reverse  
 
 原语
 ----
@@ -14,6 +14,6 @@ reverse
 
 扩展语法
 ----
-letrec
-case
-quasiquote
+letrec  
+case  
+quasiquote  
