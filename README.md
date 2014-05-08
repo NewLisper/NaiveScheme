@@ -2,17 +2,16 @@
 =====
 项目简介
 ----
-   用c实现的一个基本完整的scheme解释器。
+用c实现的一个基本完整的scheme解释器。
 参考资料
 ----
-   read,write层以及基本的数据结构参考了peter michaux的[bootstrap-scheme][1]博客和源码。
+read,write层以及基本的数据结构参考了peter michaux的[bootstrap-scheme][1]博客和源码。
    
-   continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以及R.Kent Dybvig的[paper][3]。
+continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以及R.Kent Dybvig的[paper][3]。
    
-   垃圾回收参考了peter michaux的[博文][4]及[标记清除算法][5]。
+垃圾回收参考了peter michaux的[博文][4]及[标记清除算法][5]。
    
-   宏展开系统参考了R.Kent Dybvig的[paper][6]，但未能实现完整的syntax-case系统，只实现了pattern match风格的不健康宏展开系统。
-   
+宏展开系统参考了R.Kent Dybvig的[paper][6]，但未能实现完整的syntax-case系统，只实现了pattern match风格的不健康的宏展开系统。
    
 [1]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
 [2]:http://flysnowxg.googlecode.com/svn/tinyscheme_note/
