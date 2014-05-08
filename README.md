@@ -19,3 +19,29 @@ continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以
 [4]:http://peter.michaux.ca/articles/scheme-from-scratch-bootstrap-v0_22-garbage-collection
 [5]:https://www.google.com.hk/webhp?hl=zh-CN#hl=zh-CN&newwindow=1&q=标记清除算法&safe=strict
 [6]:http://www.cs.indiana.edu/%7Edyb/pubs/bc-syntax-case.pdf
+
+数据类型
+----
+1.integer
+2.float
+3.bool
+4.char
+5.string
+6.nil
+7.proper list
+8.improper list
+9.symbol
+10.closure
+11.continuation
+12.macro
+13.input-port
+14.output-port
+
+原语操作
+----
+见include文件夹下的primitive.h文件
+
+
+
+
+
