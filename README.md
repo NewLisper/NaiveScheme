@@ -9,5 +9,5 @@
    eval层借鉴了flysnowxg的[tinyscheme revised][2]版本源码。
    
    
-[1]http://flysnowxg.googlecode.com/svn/tinyscheme_note/
-[2]http://peter.michaux.ca/articles/scheme-from-scratch-introduction
+[1]:http://flysnowxg.googlecode.com/svn/tinyscheme_note/
+[2]:http://peter.michaux.ca/articles/scheme-from-scratch-introduction
