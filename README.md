@@ -41,7 +41,10 @@ continuation的实现参考了flysnowxg的[tinyscheme revised][2]版本源码以
 ----
 见include文件夹下的primitive.h文件
 
+作者
+----
+NewLisper(leeliu.the.ultimate@gmail.com)
 
-
-
-
+License
+----
+Copyright(C) 2014 leeliu , MIT license 
