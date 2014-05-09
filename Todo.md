@@ -11,7 +11,7 @@ reverse
 
 原语
 ----
-各种数据类型之间的转换
+cast operation
 
 扩展语法
 ----
