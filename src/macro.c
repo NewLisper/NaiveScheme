@@ -168,7 +168,7 @@ object* expander(object* literals,object *clauses,object *exp)
     clause = car(clauses);
     bindings = pattern_matcher(car(clause),literals,exp);
     if(bindings != g_false)
-      return substituter(bindings,cadr(clause));
+     return substituter(bindings,cadr(clause));
     clauses = cdr(clauses);
   }
   fprintf(stderr,"syntax error\n");
