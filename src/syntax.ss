@@ -1,0 +1,30 @@
+(define-macro and
+ ( ()
+   ( () #t)
+   ( (e0) e0)
+   ( (e0 e1 ...) 
+     (if e0 (and e1 ...) #f))))
+(define-macro or
+ ( ()
+   ( () #f)
+   ( (e0) e0)
+   ( (e0 e1 ...)
+     (if e0 #t (or e1 ...)))))
+(define-macro cond
+ ( (else)
+   ( () ())
+   ( ((else res1 res2 ...)) (begin res1 res2 ...))
+   ( ((else res1 res2 ...) clauses ...) "error: else should be last clause")
+   ( ((test res1 res2 ...) clauses ...)
+     (if test (begin res1 res2 ...)
+       (cond clauses ...)))))
+(define-macro let
+ ( ()
+   ( (((vars vals) ...) body)
+     ((lambda (vars ...) body) vals ...)) ))
+(define-macro let*
+ ( ()
+   ( (() body) body)
+   ( (((var0 val0) (vars vals) ...) body)
+     (let ((var0 val0))
+      (let* ((vars vals) ...) body))) ))
